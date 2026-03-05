@@ -4,14 +4,20 @@ Generate beautiful, minimalist map posters for any city in the world.
 
 <img src="posters/singapore_neon_cyberpunk_20260118_153328.png" width="250">
 <img src="posters/dubai_midnight_blue_20260118_140807.png" width="250">
+<img src="posters/beijing_contrast_zones_20260303_144519.png" width="250">
+<img src="posters/shanghai_neon_cyberpunk_20260303_160906.png" width="250">
+
+> **Fork** of [originalankur/maptoposter](https://github.com/originalankur/maptoposter) — extended with Chinese city themes, proxy support, viewport offset flags, and rendering quality improvements. Upstream PR: [#207](https://github.com/originalankur/maptoposter/pull/207)
 
 ## Examples
+
+### International Cities
 
 | Country      | City           | Theme           | Poster |
 |:------------:|:--------------:|:---------------:|:------:|
 | USA          | San Francisco  | sunset          | <img src="posters/san_francisco_sunset_20260118_144726.png" width="250"> |
 | Spain        | Barcelona      | warm_beige      | <img src="posters/barcelona_warm_beige_20260118_140048.png" width="250"> |
-| Italy        | Venice         | blueprint       | <img src="posters/venice_blueprint_20260118_140505.png" width="250"> |
+| Italy        | Venice         | blueprint       | <img src="posters/venice_blueprint_20260120_224440.png" width="250"> |
 | Japan        | Tokyo          | japanese_ink    | <img src="posters/tokyo_japanese_ink_20260118_142446.png" width="250"> |
 | India        | Mumbai         | contrast_zones  | <img src="posters/mumbai_contrast_zones_20260118_145843.png" width="250"> |
 | Morocco      | Marrakech      | terracotta      | <img src="posters/marrakech_terracotta_20260118_143253.png" width="250"> |
@@ -19,6 +25,42 @@ Generate beautiful, minimalist map posters for any city in the world.
 | Australia    | Melbourne      | forest          | <img src="posters/melbourne_forest_20260118_153446.png" width="250"> |
 | UAE          | Dubai          | midnight_blue   | <img src="posters/dubai_midnight_blue_20260118_140807.png" width="250"> |
 | USA          | Seattle        | emerald         | <img src="posters/seattle_emerald_20260124_162244.png" width="250"> |
+
+### Chinese Cities (中国城市)
+
+| Province     | City (城市)    | Theme                 | Poster |
+|:------------:|:--------------:|:---------------------:|:------:|
+| 北京          | 北京 Beijing   | contrast_zones        | <img src="posters/beijing_contrast_zones_20260303_144519.png" width="250"> |
+| 上海          | 上海 Shanghai  | neon_cyberpunk        | <img src="posters/shanghai_neon_cyberpunk_20260303_160906.png" width="250"> |
+| 重庆          | 重庆 Chongqing | mountain_city         | <img src="posters/chongqing_mountain_city_20260303_181228.png" width="250"> |
+| 天津          | 天津 Tianjin   | haihe_night           | <img src="posters/tianjin_haihe_night_20260304_165230.png" width="250"> |
+| 香港          | 香港 Hong Kong | victoria_harbour      | <img src="posters/hong_kong_victoria_harbour_20260303_190756.png" width="250"> |
+| 山西          | 太原 Taiyuan   | jinshan_gold          | <img src="posters/taiyuan_jinshan_gold_20260304_162922.png" width="250"> |
+| 山西          | 大同 Datong    | datong_coal           | <img src="posters/datong_datong_coal_20260305_100606.png" width="250"> |
+| 内蒙古        | 赤峰 Chifeng   | steppe_sky            | <img src="posters/chifeng_steppe_sky_20260305_100420.png" width="250"> |
+| 内蒙古        | 呼和浩特 Hohhot| steppe_sky            | <img src="posters/hohhot_steppe_sky_20260304_163757.png" width="250"> |
+| 四川          | 成都 Chengdu   | sichuan_spice         | <img src="posters/chengdu_sichuan_spice_20260303_173956.png" width="250"> |
+| 四川          | 甘孜 Kangding  | gongga_glacial        | <img src="posters/kangding_gongga_glacial_20260304_133753.png" width="250"> |
+| 西藏          | 拉萨 Lhasa     | tibetan_sky           | <img src="posters/lhasa_tibetan_sky_20260304_134902.png" width="250"> |
+| 西藏          | 林芝 Nyingchi  | peach_spring          | <img src="posters/nyingchi_peach_spring_20260304_164213.png" width="250"> |
+| 西藏          | 昌都 Chamdo    | lhasa_crimson         | <img src="posters/chamdo_lhasa_crimson_20260304_133440.png" width="250"> |
+| 福建          | 福州 Fuzhou    | min_river             | <img src="posters/fuzhou_min_river_20260305_100944.png" width="250"> |
+| 福建          | 厦门 Xiamen    | xiamen_sea            | <img src="posters/xiamen_xiamen_sea_20260305_101046.png" width="250"> |
+| 江苏          | 无锡 Wuxi      | taihu_ink             | <img src="posters/wuxi_taihu_ink_20260304_111440.png" width="250"> |
+| 广东          | 深圳 Shenzhen  | shenzhen_tech         | <img src="posters/shenzhen_shenzhen_tech_20260303_182656.png" width="250"> |
+| 江苏          | 南京 Nanjing   | ming_purple           | <img src="posters/nanjing_ming_purple_20260303_182341.png" width="250"> |
+| 陕西          | 西安 Xi'an     | tang_dynasty          | <img src="posters/xi'an_tang_dynasty_20260303_180247.png" width="250"> |
+| 河北          | 承德 Chengde   | chengde_forest        | <img src="posters/chengde_chengde_forest_20260304_174512.png" width="250"> |
+| 河北          | 秦皇岛 Qinhuangdao | qinhuangdao_coast | <img src="posters/qinhuangdao_qinhuangdao_coast_20260305_104832.png" width="250"> |
+| 宁夏          | 固原 Guyuan    | loess_jin             | <img src="posters/guyuan_loess_jin_20260305_103025.png" width="250"> |
+| 宁夏          | 中卫 Zhongwei  | tengger_sand          | <img src="posters/zhongwei_tengger_sand_20260305_100920.png" width="250"> |
+| 宁夏          | 银川 Yinchuan  | spring_youth          | <img src="posters/yinchuan_spring_youth_20260303_152538.png" width="250"> |
+| 山西          | 临汾 Linfen    | loess_jin             | <img src="posters/linfen_loess_jin_20260304_152659.png" width="250"> |
+| 山西          | 运城 Yuncheng  | guandi_red            | <img src="posters/yuncheng_guandi_red_20260304_115300.png" width="250"> |
+| 江西          | 庐山 Lushan    | lushan_mist           | <img src="posters/lushan_lushan_mist_20260304_151816.png" width="250"> |
+| 四川          | 雅安 Yaan      | lushan_mist           | <img src="posters/yaan_lushan_mist_20260305_094304.png" width="250"> |
+| 河北          | 邯郸 Handan    | zhao_bronze           | <img src="posters/handan_zhao_bronze_20260303_193728.png" width="250"> |
+| 浙江          | 舟山 Putuoshan | putuo_zen             | <img src="posters/putuoshan_putuo_zen_20260303_172426.png" width="250"> |
 
 ## Installation
 
@@ -79,6 +121,8 @@ python create_map_poster.py --city <city> --country <country> [options]
 | **OPTIONAL:** `--all-themes` | | Generate posters for all available themes | |
 | **OPTIONAL:** `--width` | `-W` | Image width in inches | 12 (max: 20) |
 | **OPTIONAL:** `--height` | `-H` | Image height in inches | 16 (max: 20) |
+| **OPTIONAL:** `--map-x-offset` | `-mx` | Shift viewport left/right (-1.0 to +1.0) | 0.0 |
+| **OPTIONAL:** `--map-y-offset` | `-my` | Shift viewport up/down (-1.0 to +1.0) | 0.0 |
 
 ### Multilingual Support - i18n
 
@@ -149,6 +193,9 @@ python create_map_poster.py -c "Dubai" -C "UAE" -dc "دبي" -dC "الإمارا
 # Chinese (Simplified)
 python create_map_poster.py -c "Beijing" -C "China" -dc "北京" -dC "中国" --font-family "Noto Sans SC"
 
+# Chinese city with viewport offset (shift map center)
+python create_map_poster.py -c "Guyuan" -C "China" -dc "固原" -dC "宁夏" --font-family "Noto Sans SC" -t loess_jin -d 30000 -mx 0.167
+
 # Khmer
 python create_map_poster.py -c "Phnom Penh" -C "Cambodia" -dc "ភ្នំពេញ" -dC "កម្ពុជា" --font-family "Noto Sans Khmer"
 ```
@@ -203,7 +250,9 @@ python create_map_poster.py -c "Tokyo" -C "Japan" --all-themes
 
 ## Themes
 
-17 themes available in `themes/` directory:
+### Original Themes (17)
+
+17 built-in themes available in `themes/` directory:
 
 | Theme | Style |
 |-------|-------|
@@ -224,6 +273,43 @@ python create_map_poster.py -c "Tokyo" -C "Japan" --all-themes
 | `autumn` | Seasonal burnt oranges and reds |
 | `copper_patina` | Oxidized copper aesthetic |
 | `monochrome_blue` | Single blue color family |
+
+### Chinese City Themes (新增中国城市主题)
+
+30+ custom themes tailored for Chinese cities and landscapes:
+
+| Theme | 适合城市 | Style |
+|-------|---------|-------|
+| `loess_jin` | 固原、临汾、晋中、朔州、大同 | Loess Plateau earthy golds |
+| `datong_coal` | 大同 | Dark coal-black with gold roads |
+| `steppe_sky` | 赤峰、呼和浩特 | Inner Mongolia steppe greens |
+| `taihu_ink` | 无锡 | Ink-wash green for Taihu Lake area |
+| `min_river` | 福州 | Deep forest ink for Min River delta |
+| `xiamen_sea` | 厦门 | Bright tropical green |
+| `qinhuangdao_coast` | 秦皇岛 | Bohai Sea blue (sea as background) |
+| `tengger_sand` | 中卫 | Yellow-gold Tengger Desert |
+| `chengde_forest` | 承德 | Dense mountain forest ink |
+| `lushan_mist` | 庐山、雅安 | Misty mountain jade |
+| `tibetan_sky` | 拉萨、日喀则、山南 | High-altitude sky blue |
+| `lhasa_crimson` | 昌都 | Crimson palace red on dark |
+| `gongga_glacial` | 甘孜 | Glacial grey-blue |
+| `peach_spring` | 林芝 | Deep emerald with pearl roads |
+| `jinshan_gold` | 太原 | Deep black with golden architecture |
+| `haihe_night` | 天津 | Night-glow dark navy with gold |
+| `guandi_red` | 运城 | Ceremonial deep red |
+| `tang_dynasty` | 西安 | Imperial Tang earth tones |
+| `ming_purple` | 南京 | Ming dynasty deep purple |
+| `sichuan_spice` | 成都 | Sichuan spice dark brown |
+| `mountain_city` | 重庆 | Dark mountain fog |
+| `shenzhen_tech` | 深圳 | High-tech teal |
+| `victoria_harbour` | 香港 | Deep harbour navy |
+| `zhao_bronze` | 邯郸 | Ancient bronze patina |
+| `putuo_zen` | 舟山普陀山 | Meditative grey-blue |
+| `spring_youth` | 银川 | Fresh spring green |
+| `winter_peaks` | 张家口 | Snow-white peaks |
+| `grassland_blueprint` | 乌兰察布 | Blueprint on steppe |
+| `loess_gobi` | 同心 | Arid gobi beige |
+| `jinshan_gold` | 太原 | Deep black, gold roads |
 
 ## Output
 
@@ -251,9 +337,25 @@ Create a JSON file in `themes/` directory:
   "road_secondary": "#2A2A2A",
   "road_tertiary": "#3A3A3A",
   "road_residential": "#4A4A4A",
-  "road_default": "#3A3A3A"
+  "road_default": "#3A3A3A",
+
+  "road_width_scale": 1.5,
+  "bg_patina": true,
+  "bg_patina_color": "#40A880",
+  "bg_top": "#1A3A6A",
+  "bg_bottom": "#0A1A3A"
 }
 ```
+
+### Extended Theme Keys (this fork)
+
+| Key | Type | Default | Description |
+|-----|------|---------|-------------|
+| `road_width_scale` | float | `1.0` | Multiply all road stroke widths (e.g. `2.0` = double width for sparse suburban maps) |
+| `bg_patina` | bool | `false` | Enable a subtle texture overlay on the background for an aged/aged-paper effect |
+| `bg_patina_color` | hex string | `"#40A880"` | Tint color of the patina overlay (only used when `bg_patina` is `true`) |
+| `bg_top` | hex string | — | Top color of a vertical background gradient; overrides `bg` when set |
+| `bg_bottom` | hex string | — | Bottom color of the vertical background gradient; paired with `bg_top` |
 
 ## Project Structure
 

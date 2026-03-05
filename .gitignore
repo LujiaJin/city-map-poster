@@ -1,6 +1,6 @@
 cache/*
-posters/*
-fonts/*
+fonts/cache/
+posters/old/
 
 # Virtual environments
 env/
