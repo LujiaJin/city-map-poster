@@ -1,11 +1,11 @@
-# City Map Poster Generator
+﻿# City Map Poster Generator
 
 Generate beautiful, minimalist map posters for any city in the world.
 
-<img src="posters/singapore_neon_cyberpunk_20260118_153328.png" width="250">
-<img src="posters/dubai_midnight_blue_20260118_140807.png" width="250">
-<img src="posters/beijing_contrast_zones_20260303_144519.png" width="250">
-<img src="posters/shanghai_neon_cyberpunk_20260303_160906.png" width="250">
+<img src="posters/original/singapore_neon_cyberpunk_20260118_153328.png" width="250">
+<img src="posters/original/dubai_midnight_blue_20260118_140807.png" width="250">
+<img src="posters/China/beijing_contrast_zones_20260303_144519.png" width="250">
+<img src="posters/China/shanghai_neon_cyberpunk_20260303_160906.png" width="250">
 
 > **Fork** of [originalankur/maptoposter](https://github.com/originalankur/maptoposter) — extended with Chinese city themes, proxy support, viewport offset flags, and rendering quality improvements. Upstream PR: [#207](https://github.com/originalankur/maptoposter/pull/207)
 
@@ -15,52 +15,52 @@ Generate beautiful, minimalist map posters for any city in the world.
 
 | Country      | City           | Theme           | Poster |
 |:------------:|:--------------:|:---------------:|:------:|
-| USA          | San Francisco  | sunset          | <img src="posters/san_francisco_sunset_20260118_144726.png" width="250"> |
-| Spain        | Barcelona      | warm_beige      | <img src="posters/barcelona_warm_beige_20260118_140048.png" width="250"> |
-| Italy        | Venice         | blueprint       | <img src="posters/venice_blueprint_20260120_224440.png" width="250"> |
-| Japan        | Tokyo          | japanese_ink    | <img src="posters/tokyo_japanese_ink_20260118_142446.png" width="250"> |
-| India        | Mumbai         | contrast_zones  | <img src="posters/mumbai_contrast_zones_20260118_145843.png" width="250"> |
-| Morocco      | Marrakech      | terracotta      | <img src="posters/marrakech_terracotta_20260118_143253.png" width="250"> |
-| Singapore    | Singapore      | neon_cyberpunk  | <img src="posters/singapore_neon_cyberpunk_20260118_153328.png" width="250"> |
-| Australia    | Melbourne      | forest          | <img src="posters/melbourne_forest_20260118_153446.png" width="250"> |
-| UAE          | Dubai          | midnight_blue   | <img src="posters/dubai_midnight_blue_20260118_140807.png" width="250"> |
-| USA          | Seattle        | emerald         | <img src="posters/seattle_emerald_20260124_162244.png" width="250"> |
+| USA          | San Francisco  | sunset          | <img src="posters/international/san_francisco_sunset_20260118_144726.png" width="250"> |
+| Spain        | Barcelona      | warm_beige      | <img src="posters/international/barcelona_warm_beige_20260118_140048.png" width="250"> |
+| Italy        | Venice         | blueprint       | <img src="posters/international/venice_blueprint_20260120_224440.png" width="250"> |
+| Japan        | Tokyo          | japanese_ink    | <img src="posters/original/tokyo_japanese_ink_20260118_142446.png" width="250"> |
+| India        | Mumbai         | contrast_zones  | <img src="posters/international/mumbai_contrast_zones_20260118_145843.png" width="250"> |
+| Morocco      | Marrakech      | terracotta      | <img src="posters/international/marrakech_terracotta_20260118_143253.png" width="250"> |
+| Singapore    | Singapore      | neon_cyberpunk  | <img src="posters/original/singapore_neon_cyberpunk_20260118_153328.png" width="250"> |
+| Australia    | Melbourne      | forest          | <img src="posters/original/melbourne_forest_20260118_153446.png" width="250"> |
+| UAE          | Dubai          | midnight_blue   | <img src="posters/original/dubai_midnight_blue_20260118_140807.png" width="250"> |
+| USA          | Seattle        | emerald         | <img src="posters/international/seattle_emerald_20260124_162244.png" width="250"> |
 
 ### Chinese Cities (中国城市)
 
 | Province     | City (城市)    | Theme                 | Poster |
 |:------------:|:--------------:|:---------------------:|:------:|
-| 北京          | 北京 Beijing   | contrast_zones        | <img src="posters/beijing_contrast_zones_20260303_144519.png" width="250"> |
-| 上海          | 上海 Shanghai  | neon_cyberpunk        | <img src="posters/shanghai_neon_cyberpunk_20260303_160906.png" width="250"> |
-| 重庆          | 重庆 Chongqing | mountain_city         | <img src="posters/chongqing_mountain_city_20260303_181228.png" width="250"> |
-| 天津          | 天津 Tianjin   | haihe_night           | <img src="posters/tianjin_haihe_night_20260304_165230.png" width="250"> |
-| 香港          | 香港 Hong Kong | victoria_harbour      | <img src="posters/hong_kong_victoria_harbour_20260303_190756.png" width="250"> |
-| 山西          | 太原 Taiyuan   | jinshan_gold          | <img src="posters/taiyuan_jinshan_gold_20260304_162922.png" width="250"> |
-| 山西          | 大同 Datong    | datong_coal           | <img src="posters/datong_datong_coal_20260305_100606.png" width="250"> |
-| 内蒙古        | 赤峰 Chifeng   | steppe_sky            | <img src="posters/chifeng_steppe_sky_20260305_100420.png" width="250"> |
-| 内蒙古        | 呼和浩特 Hohhot| steppe_sky            | <img src="posters/hohhot_steppe_sky_20260304_163757.png" width="250"> |
-| 四川          | 成都 Chengdu   | sichuan_spice         | <img src="posters/chengdu_sichuan_spice_20260303_173956.png" width="250"> |
-| 四川          | 甘孜 Kangding  | gongga_glacial        | <img src="posters/kangding_gongga_glacial_20260304_133753.png" width="250"> |
-| 西藏          | 拉萨 Lhasa     | tibetan_sky           | <img src="posters/lhasa_tibetan_sky_20260304_134902.png" width="250"> |
-| 西藏          | 林芝 Nyingchi  | peach_spring          | <img src="posters/nyingchi_peach_spring_20260304_164213.png" width="250"> |
-| 西藏          | 昌都 Chamdo    | lhasa_crimson         | <img src="posters/chamdo_lhasa_crimson_20260304_133440.png" width="250"> |
-| 福建          | 福州 Fuzhou    | min_river             | <img src="posters/fuzhou_min_river_20260305_100944.png" width="250"> |
-| 福建          | 厦门 Xiamen    | xiamen_sea            | <img src="posters/xiamen_xiamen_sea_20260305_101046.png" width="250"> |
-| 江苏          | 无锡 Wuxi      | taihu_ink             | <img src="posters/wuxi_taihu_ink_20260304_111440.png" width="250"> |
-| 广东          | 深圳 Shenzhen  | shenzhen_tech         | <img src="posters/shenzhen_shenzhen_tech_20260303_182656.png" width="250"> |
-| 江苏          | 南京 Nanjing   | ming_purple           | <img src="posters/nanjing_ming_purple_20260303_182341.png" width="250"> |
-| 陕西          | 西安 Xi'an     | tang_dynasty          | <img src="posters/xi'an_tang_dynasty_20260303_180247.png" width="250"> |
-| 河北          | 承德 Chengde   | chengde_forest        | <img src="posters/chengde_chengde_forest_20260304_174512.png" width="250"> |
-| 河北          | 秦皇岛 Qinhuangdao | qinhuangdao_coast | <img src="posters/qinhuangdao_qinhuangdao_coast_20260305_104832.png" width="250"> |
-| 宁夏          | 固原 Guyuan    | loess_jin             | <img src="posters/guyuan_loess_jin_20260305_103025.png" width="250"> |
-| 宁夏          | 中卫 Zhongwei  | tengger_sand          | <img src="posters/zhongwei_tengger_sand_20260305_100920.png" width="250"> |
-| 宁夏          | 银川 Yinchuan  | spring_youth          | <img src="posters/yinchuan_spring_youth_20260303_152538.png" width="250"> |
-| 山西          | 临汾 Linfen    | loess_jin             | <img src="posters/linfen_loess_jin_20260304_152659.png" width="250"> |
-| 山西          | 运城 Yuncheng  | guandi_red            | <img src="posters/yuncheng_guandi_red_20260304_115300.png" width="250"> |
-| 江西          | 庐山 Lushan    | lushan_mist           | <img src="posters/lushan_lushan_mist_20260304_151816.png" width="250"> |
-| 四川          | 雅安 Yaan      | lushan_mist           | <img src="posters/yaan_lushan_mist_20260305_094304.png" width="250"> |
-| 河北          | 邯郸 Handan    | zhao_bronze           | <img src="posters/handan_zhao_bronze_20260303_193728.png" width="250"> |
-| 浙江          | 舟山 Putuoshan | putuo_zen             | <img src="posters/putuoshan_putuo_zen_20260303_172426.png" width="250"> |
+| 北京          | 北京 Beijing   | contrast_zones        | <img src="posters/China/beijing_contrast_zones_20260303_144519.png" width="250"> |
+| 上海          | 上海 Shanghai  | neon_cyberpunk        | <img src="posters/China/shanghai_neon_cyberpunk_20260303_160906.png" width="250"> |
+| 重庆          | 重庆 Chongqing | mountain_city         | <img src="posters/China/chongqing_mountain_city_20260303_181228.png" width="250"> |
+| 天津          | 天津 Tianjin   | haihe_night           | <img src="posters/China/tianjin_haihe_night_20260304_165230.png" width="250"> |
+| 香港          | 香港 Hong Kong | victoria_harbour      | <img src="posters/China/hong_kong_victoria_harbour_20260303_190756.png" width="250"> |
+| 山西          | 太原 Taiyuan   | jinshan_gold          | <img src="posters/China/taiyuan_jinshan_gold_20260304_162922.png" width="250"> |
+| 山西          | 大同 Datong    | datong_coal           | <img src="posters/China/datong_datong_coal_20260305_100606.png" width="250"> |
+| 内蒙古        | 赤峰 Chifeng   | steppe_sky            | <img src="posters/China/chifeng_steppe_sky_20260305_100420.png" width="250"> |
+| 内蒙古        | 呼和浩特 Hohhot| steppe_sky            | <img src="posters/China/hohhot_steppe_sky_20260304_163757.png" width="250"> |
+| 四川          | 成都 Chengdu   | sichuan_spice         | <img src="posters/China/chengdu_sichuan_spice_20260303_173956.png" width="250"> |
+| 四川          | 甘孜 Kangding  | gongga_glacial        | <img src="posters/China/kangding_gongga_glacial_20260304_133753.png" width="250"> |
+| 西藏          | 拉萨 Lhasa     | tibetan_sky           | <img src="posters/China/lhasa_tibetan_sky_20260304_134902.png" width="250"> |
+| 西藏          | 林芝 Nyingchi  | peach_spring          | <img src="posters/China/nyingchi_peach_spring_20260304_164213.png" width="250"> |
+| 西藏          | 昌都 Chamdo    | lhasa_crimson         | <img src="posters/China/chamdo_lhasa_crimson_20260304_133440.png" width="250"> |
+| 福建          | 福州 Fuzhou    | min_river             | <img src="posters/China/fuzhou_min_river_20260305_100944.png" width="250"> |
+| 福建          | 厦门 Xiamen    | xiamen_sea            | <img src="posters/China/xiamen_xiamen_sea_20260305_101046.png" width="250"> |
+| 江苏          | 无锡 Wuxi      | taihu_ink             | <img src="posters/China/wuxi_taihu_ink_20260304_111440.png" width="250"> |
+| 广东          | 深圳 Shenzhen  | shenzhen_tech         | <img src="posters/China/shenzhen_shenzhen_tech_20260303_182656.png" width="250"> |
+| 江苏          | 南京 Nanjing   | ming_purple           | <img src="posters/China/nanjing_ming_purple_20260303_182341.png" width="250"> |
+| 陕西          | 西安 Xi'an     | tang_dynasty          | <img src="posters/China/xi'an_tang_dynasty_20260303_180247.png" width="250"> |
+| 河北          | 承德 Chengde   | chengde_forest        | <img src="posters/China/chengde_chengde_forest_20260304_174512.png" width="250"> |
+| 河北          | 秦皇岛 Qinhuangdao | qinhuangdao_coast | <img src="posters/China/qinhuangdao_qinhuangdao_coast_20260305_104832.png" width="250"> |
+| 宁夏          | 固原 Guyuan    | loess_jin             | <img src="posters/China/guyuan_loess_jin_20260305_103025.png" width="250"> |
+| 宁夏          | 中卫 Zhongwei  | tengger_sand          | <img src="posters/China/zhongwei_tengger_sand_20260305_100920.png" width="250"> |
+| 宁夏          | 银川 Yinchuan  | spring_youth          | <img src="posters/China/yinchuan_spring_youth_20260303_152538.png" width="250"> |
+| 山西          | 临汾 Linfen    | loess_jin             | <img src="posters/China/linfen_loess_jin_20260304_152659.png" width="250"> |
+| 山西          | 运城 Yuncheng  | guandi_red            | <img src="posters/China/yuncheng_guandi_red_20260304_115300.png" width="250"> |
+| 江西          | 庐山 Lushan    | lushan_mist           | <img src="posters/China/lushan_lushan_mist_20260304_151816.png" width="250"> |
+| 四川          | 雅安 Yaan      | lushan_mist           | <img src="posters/China/yaan_lushan_mist_20260305_094304.png" width="250"> |
+| 河北          | 邯郸 Handan    | zhao_bronze           | <img src="posters/China/handan_zhao_bronze_20260303_193728.png" width="250"> |
+| 浙江          | 舟山 Putuoshan | putuo_zen             | <img src="posters/China/putuoshan_putuo_zen_20260303_172426.png" width="250"> |
 
 ## Installation
 
@@ -366,8 +366,11 @@ map_poster/
 ├── themes/                 # Theme JSON files
 ├── fonts/                  # Font files
 │   ├── Roboto-*.ttf        # Default Roboto fonts
-│   └── cache/              # Downloaded Google Fonts (auto-generated)
-├── posters/                # Generated posters
+│   └── cache/              # Downloaded Google Fonts (auto-generated, git-ignored)
+├── posters/                # Generated poster gallery
+│   ├── original/           # Classic maptoposter demo cities (Singapore, Dubai, Tokyo …)
+│   ├── international/      # Other international cities (Amsterdam, Barcelona …)
+│   └── China/              # Chinese city posters (北京, 上海, 重庆 …)
 └── README.md
 ```
 
