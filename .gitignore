@@ -1,4 +1,6 @@
 cache/*
+posters/*
+fonts/*
 
 # Virtual environments
 env/
