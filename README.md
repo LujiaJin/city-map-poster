@@ -94,17 +94,17 @@ python create_map_poster.py --city <city> --country <country> [options]
 
 | Option | Short | Description | Default |
 |--------|-------|-------------|---------|
-| **OPTIONAL:** `--latitude` | `-lat` | Override latitude center point (use with --longitude) | |
-| **OPTIONAL:** `--longitude` | `-long` | Override longitude center point (use with --latitude) | |
-| **OPTIONAL:** `--country-label` | | Override country text displayed on poster | |
-| **OPTIONAL:** `--theme` | `-t` | Theme name | terracotta |
-| **OPTIONAL:** `--distance` | `-d` | Map radius in meters | 18000 |
-| **OPTIONAL:** `--list-themes` | | List all available themes | |
-| **OPTIONAL:** `--all-themes` | | Generate posters for all available themes | |
-| **OPTIONAL:** `--width` | `-W` | Image width in inches | 12 (max: 20) |
-| **OPTIONAL:** `--height` | `-H` | Image height in inches | 16 (max: 20) |
-| **OPTIONAL:** `--map-x-offset` | `-mx` | Shift viewport left/right (-1.0 to +1.0) | 0.0 |
-| **OPTIONAL:** `--map-y-offset` | `-my` | Shift viewport up/down (-1.0 to +1.0) | 0.0 |
+| `--latitude` | `-lat` | Override latitude center point (use with --longitude) | |
+| `--longitude` | `-long` | Override longitude center point (use with --latitude) | |
+| `--country-label` | | Override country text displayed on poster | |
+| `--theme` | `-t` | Theme name | `terracotta` |
+| `--distance` | `-d` | Map radius in meters | `18000` |
+| `--list-themes` | | List all available themes | |
+| `--all-themes` | | Generate posters for all available themes | |
+| `--width` | `-W` | Image width in inches | `12` (max: 20) |
+| `--height` | `-H` | Image height in inches | `16` (max: 20) |
+| `--map-x-offset` | `-mx` | Shift viewport left/right (-1.0 to +1.0) | `0.0` |
+| `--map-y-offset` | `-my` | Shift viewport up/down (-1.0 to +1.0) | `0.0` |
 
 ### Multilingual Support - i18n
 
@@ -116,20 +116,7 @@ Display city and country names in your language with custom fonts from google fo
 | `--display-country` | `-dC` | Custom display name for country (e.g., "日本") |
 | `--font-family` | | Google Fonts family name (e.g., "Noto Sans JP") |
 
-**Examples:**
-
-```bash
-# Japanese
-python create_map_poster.py -c "Tokyo" -C "Japan" -dc "東京" -dC "日本" --font-family "Noto Sans JP"
-
-# Korean
-python create_map_poster.py -c "Seoul" -C "South Korea" -dc "서울" -dC "대한민국" --font-family "Noto Sans KR"
-
-# Arabic
-python create_map_poster.py -c "Dubai" -C "UAE" -dc "دبي" -dC "الإمارات" --font-family "Cairo"
-```
-
-**Note**: Fonts are automatically downloaded from Google Fonts and cached locally in `fonts/cache/`.
+**Note**: Fonts are automatically downloaded from Google Fonts and cached locally in `fonts/cache/`. See [Multilingual Examples](#multilingual-examples-non-latin-scripts) below for full usage.
 
 ### Resolution Guide (300 DPI)
 
@@ -291,7 +278,6 @@ python create_map_poster.py -c "Tokyo" -C "Japan" --all-themes
 | `winter_peaks` | 张家口 | Snow-white peaks |
 | `grassland_blueprint` | 乌兰察布 | Blueprint on steppe |
 | `loess_gobi` | 同心 | Arid gobi beige |
-| `jinshan_gold` | 太原 | Deep black, gold roads |
 
 ## Output
 
